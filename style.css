@@ -16,12 +16,12 @@ body{
     margin-left: 130px;
     font-weight: 900;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 2px 2px #d5aad5 ;
+    text-shadow: 2px 2px 4px #d5aad5 ;
     font-style: italic;
 }
 .div3{
      border: 8px solid #008000;
-     width: 100%;
+     width: 98%;
      height: 700px;
      
      
@@ -80,20 +80,23 @@ body{
     top: 500px;
     box-shadow: 10px 10px 10px #800080 ;
     background-color: #adff2f;
+    grid-template-columns:1fr 1fr ;
+    column-gap: 30px;
+    display: grid;
 }
 .box1 h2{
     text-align: center;
-    color: #5e2092;
+    color: #140122;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    text-shadow: 1px 1px #00004c ;
+    text-shadow: 1px 1px 3px #00004c ;
 
 }
 .box4 h2{
-    color: #5e2092;
+    color: #140122;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    text-shadow: 1px 1px #00004c ;
+    text-shadow: 1px 1px 3px #00004c ;
     font-size: 28px;
 }
 .discount h2{
@@ -113,26 +116,26 @@ body{
     background-repeat: no-repeat;
 }
 .rate h2{
-    color: #5e2092;
+    color: #140122;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    text-shadow: 1px 1px #00004c ;
+    text-shadow: 1px 1px 3px #00004c ;
     font-size: 28px;
     text-align: center;
 }
 .submit{
-    color: #5e2092;
+    color: #140122;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    text-shadow: 1px 1px #00004c ;
+    text-shadow: 1px 1px 3px #00004c ;
     text-align: center;
 }
 .Button{
     text-align: center;
-    color: #5e2092;
+    color: #140122;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    text-shadow: 1px 1px #00004c ;
+    text-shadow: 1px 1px 3px #00004c ;
 }
 .last{
     background-color: #008000;
@@ -165,3 +168,4 @@ body{
     height: 290px;
     margin-top: 15px;
 }
+
